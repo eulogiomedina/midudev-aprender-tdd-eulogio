@@ -15,6 +15,7 @@ jobs:
 
     
     steps:
+    - uses: actions/checkout@v4
     - name: 'hello world'
       run: echo "hello world"
     - name: 'dime la fecha'
