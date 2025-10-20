@@ -8,7 +8,6 @@
     "build": "vite build",
     "dev": "vite",
     "test": "vitest",
-    "lint": "standard",
     "coverage": "vitest run --coverage"
   },
   "keywords": [],
