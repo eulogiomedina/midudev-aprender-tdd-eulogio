@@ -21,5 +21,6 @@ jobs:
           node-version: 24
           cache: 'npm'
     - run: npm ci --legacy-peer-deps --no-fund --no-audit
+    - run: mpm run test
     - run: npm run build
 
